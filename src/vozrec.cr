@@ -28,8 +28,9 @@ def fetch_thread(thread_url : String, last_page = 1, skip_cached = true) : Nil
   end
 end
 
-fetch_thread("https://voz.vn/t/tat-ca-cac-bai-bao-sau-bau-cu-ve-my-post-vao-day-khong-lap-cac-cac-topic-khac-auto-xoa-ban.173809/", 290)
+# fetch_thread("https://voz.vn/t/tat-ca-cac-bai-bao-sau-bau-cu-ve-my-post-vao-day-khong-lap-cac-cac-topic-khac-auto-xoa-ban.173809/", 461, skip_cached: true)
 
 # fetch_thread("https://voz.vn/t/chiec-may-tinh-bi-an-co-the-lam-xoay-chuyen-cuc-dien-bau-cu-my-gio-chot.163037/", 537)
-
 # fetch_thread("https://voz.vn/t/bau-cu-tong-thong-my-tat-ca-vao-day-lap-topic-ngoai-gan-ghep-cau-no-trumpet-xoa-va-ban.169124/", last_page: 1268)
+
+fetch_thread("https://voz.vn/t/trump-noi-nhieu-nguoi-my-nhiem-ncov-la-tuyet-voi.192294/", 14, skip_cached: false)
